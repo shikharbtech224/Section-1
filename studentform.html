@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Admission Form</title>
+</head>
+<body>
+
+    <h1>Student Admission Form</h1>
+
+    <form>
+
+        <label for="name">Full Name</label>
+        <input id="name" type="text" required>
+
+        <br>
+        <br>
+
+        <label for="email">Email Address</label>
+        <input id="email" type="email" required>
+
+        <br><br>
+
+        <label for="dob">DOB</label>
+        <input id="dob" type="date">
+
+        <br><br>
+
+        <label for="address">Permanent Address</label>
+        <br>
+        <textarea id="address" cols="50" rows="5"></textarea>
+
+        <br><br>
+
+        <label for="city">Select City</label>
+        <select id="city">
+            <option>Lucknow</option>
+            <option>Agra</option>
+            <option>Jaipur</option>
+            <option>Kanpur</option>
+        </select>
+
+        <br><br>
+
+        <label for="board">Board of Intermediate</label>
+        <input id="board" type="text" list="board-data">
+
+        <datalist id="board-data">
+            <option>UP Board</option>
+            <option>ICSE Board</option>
+            <option>CBSE Board</option>
+        </datalist>
+
+        <br><br>
+
+        <label for="gender">Gender</label>
+        <input name="gender" type="radio"> Male
+        <input name="gender" type="radio"> Female
+
+        <br><br>
+
+        <input id="terms" type="checkbox">
+        <label for="terms">I Accept Terms & Conditions</label>
+
+
+        <input id="subscribe" type="checkbox">
+        <label for="subscribe">Subscribe me to newsletter</label>
+
+        <br><br>
+
+        <details>
+            <summary>View Terms & Conditions</summary>
+            <p>Lorem ipsum dolor sit, amet <mark>consectetur adipisicing elit.</mark> Nostrum, saepe. Expedita fugit velit pariatur error enim! Ut quia temporibus maiores fugiat minus magni aut, in amet? Deleniti maxime minima, eos ex blanditiis sed repudiandae molestias nulla sequi facilis, maiores neque consectetur, reiciendis rem. Deleniti nulla repellendus ex possimus perspiciatis voluptas.</p>
+        </details>
+
+        <br>
+
+        <button type="submit">Submit</button>
+
+    </form>
+
+</body>
+</html>
